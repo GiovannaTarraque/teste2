@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PROJETO-FECIP.exe" size="13668832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PROJETO-FECIP.exe" size="13683680">
       <assemblyIdentity name="PROJETO-FECIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TDSMOycEbSCYefko7EHinxvQOi+y7gzamKtQ9DbNalw=</dsig:DigestValue>
+        <dsig:DigestValue>B53PoEdrLdPmrHMyYiY8yCUSuxvGzCtsYG/k+VZ/5Ls=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

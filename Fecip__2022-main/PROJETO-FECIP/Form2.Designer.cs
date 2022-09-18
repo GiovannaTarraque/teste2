@@ -58,6 +58,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -74,7 +75,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(66, 64);
+            this.panel1.Location = new System.Drawing.Point(66, 74);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(232, 1);
             this.panel1.TabIndex = 6;
@@ -89,23 +90,23 @@
             // 
             // txb_username
             // 
-            this.txb_username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(120)))));
-            this.txb_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txb_username.BackColor = System.Drawing.Color.MediumAquamarine;
             this.txb_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txb_username.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.txb_username.Location = new System.Drawing.Point(66, 43);
+            this.txb_username.Location = new System.Drawing.Point(66, 47);
             this.txb_username.Multiline = true;
             this.txb_username.Name = "txb_username";
-            this.txb_username.Size = new System.Drawing.Size(232, 20);
+            this.txb_username.Size = new System.Drawing.Size(232, 24);
             this.txb_username.TabIndex = 5;
             this.txb_username.Click += new System.EventHandler(this.txb_username_Click);
             this.txb_username.TextChanged += new System.EventHandler(this.txb_username_TextChanged);
+            this.txb_username.Enter += new System.EventHandler(this.txb_username_Enter);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(66, 131);
+            this.panel3.Location = new System.Drawing.Point(66, 128);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(232, 1);
             this.panel3.TabIndex = 8;
@@ -133,7 +134,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(66, 259);
+            this.panel5.Location = new System.Drawing.Point(66, 260);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(232, 1);
             this.panel5.TabIndex = 12;
@@ -141,20 +142,19 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Location = new System.Drawing.Point(0, -2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 1);
             this.panel6.TabIndex = 5;
             // 
             // mtxb_cpf_cadastro
             // 
-            this.mtxb_cpf_cadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(120)))));
-            this.mtxb_cpf_cadastro.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mtxb_cpf_cadastro.ForeColor = System.Drawing.SystemColors.Window;
-            this.mtxb_cpf_cadastro.Location = new System.Drawing.Point(66, 239);
+            this.mtxb_cpf_cadastro.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.mtxb_cpf_cadastro.ForeColor = System.Drawing.Color.Black;
+            this.mtxb_cpf_cadastro.Location = new System.Drawing.Point(66, 237);
             this.mtxb_cpf_cadastro.Mask = "000.000.000-00";
             this.mtxb_cpf_cadastro.Name = "mtxb_cpf_cadastro";
-            this.mtxb_cpf_cadastro.Size = new System.Drawing.Size(232, 13);
+            this.mtxb_cpf_cadastro.Size = new System.Drawing.Size(232, 20);
             this.mtxb_cpf_cadastro.TabIndex = 11;
             this.mtxb_cpf_cadastro.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxb_cpf_cadastro_MaskInputRejected);
             this.mtxb_cpf_cadastro.Click += new System.EventHandler(this.mtxb_cpf_cadastro_Click);
@@ -163,7 +163,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(66, 192);
+            this.panel7.Location = new System.Drawing.Point(66, 193);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(232, 1);
             this.panel7.TabIndex = 14;
@@ -178,26 +178,25 @@
             // 
             // mtxb_telefone
             // 
-            this.mtxb_telefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(120)))));
-            this.mtxb_telefone.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mtxb_telefone.ForeColor = System.Drawing.SystemColors.Window;
-            this.mtxb_telefone.Location = new System.Drawing.Point(66, 173);
+            this.mtxb_telefone.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.mtxb_telefone.ForeColor = System.Drawing.Color.Black;
+            this.mtxb_telefone.Location = new System.Drawing.Point(66, 170);
             this.mtxb_telefone.Mask = "(00) 00000-0000";
             this.mtxb_telefone.Name = "mtxb_telefone";
-            this.mtxb_telefone.Size = new System.Drawing.Size(232, 13);
+            this.mtxb_telefone.Size = new System.Drawing.Size(232, 20);
             this.mtxb_telefone.TabIndex = 13;
             this.mtxb_telefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             this.mtxb_telefone.Click += new System.EventHandler(this.mtxb_telefone_Click);
             // 
             // btn_CADASTRAR
             // 
-            this.btn_CADASTRAR.BackColor = System.Drawing.Color.Cyan;
+            this.btn_CADASTRAR.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btn_CADASTRAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_CADASTRAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_CADASTRAR.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btn_CADASTRAR.Location = new System.Drawing.Point(101, 382);
+            this.btn_CADASTRAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CADASTRAR.ForeColor = System.Drawing.Color.Black;
+            this.btn_CADASTRAR.Location = new System.Drawing.Point(101, 361);
             this.btn_CADASTRAR.Name = "btn_CADASTRAR";
-            this.btn_CADASTRAR.Size = new System.Drawing.Size(150, 35);
+            this.btn_CADASTRAR.Size = new System.Drawing.Size(133, 31);
             this.btn_CADASTRAR.TabIndex = 16;
             this.btn_CADASTRAR.Text = "CADASTRAR";
             this.btn_CADASTRAR.UseVisualStyleBackColor = false;
@@ -213,6 +212,7 @@
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 17;
             this.label2.Text = "Telefone";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -234,21 +234,20 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(63, 276);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 21;
-            this.label4.Text = "senha";
+            this.label4.Text = "Senha";
             // 
             // txb_password_cadastro
             // 
-            this.txb_password_cadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(0)))), ((int)(((byte)(120)))));
-            this.txb_password_cadastro.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txb_password_cadastro.BackColor = System.Drawing.Color.MediumAquamarine;
             this.txb_password_cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_password_cadastro.ForeColor = System.Drawing.SystemColors.Window;
-            this.txb_password_cadastro.Location = new System.Drawing.Point(66, 297);
+            this.txb_password_cadastro.ForeColor = System.Drawing.Color.Black;
+            this.txb_password_cadastro.Location = new System.Drawing.Point(66, 292);
             this.txb_password_cadastro.Multiline = true;
             this.txb_password_cadastro.Name = "txb_password_cadastro";
             this.txb_password_cadastro.PasswordChar = '*';
-            this.txb_password_cadastro.Size = new System.Drawing.Size(232, 22);
+            this.txb_password_cadastro.Size = new System.Drawing.Size(232, 25);
             this.txb_password_cadastro.TabIndex = 23;
             this.txb_password_cadastro.Click += new System.EventHandler(this.txb_password_cadastro_Click);
             this.txb_password_cadastro.TextChanged += new System.EventHandler(this.txb_password_cadastro_TextChanged);
@@ -267,11 +266,12 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(63, 17);
+            this.label6.Location = new System.Drawing.Point(63, 31);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(81, 13);
             this.label6.TabIndex = 25;
             this.label6.Text = "Nome completo";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // checkBox1
             // 
@@ -279,7 +279,7 @@
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox1.Location = new System.Drawing.Point(193, 346);
+            this.checkBox1.Location = new System.Drawing.Point(193, 326);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(105, 19);
             this.checkBox1.TabIndex = 26;
@@ -315,7 +315,7 @@
             // 
             this.panel11.BackColor = System.Drawing.Color.White;
             this.panel11.Controls.Add(this.panel12);
-            this.panel11.Location = new System.Drawing.Point(66, 320);
+            this.panel11.Location = new System.Drawing.Point(66, 319);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(232, 1);
             this.panel11.TabIndex = 13;
@@ -330,53 +330,69 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::PROJETO_FECIP.Properties.Resources.cadeado1;
-            this.pictureBox3.Location = new System.Drawing.Point(24, 292);
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::PROJETO_FECIP.Properties.Resources.icons8_trancar_301;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 283);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(26, 29);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.Size = new System.Drawing.Size(45, 41);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::PROJETO_FECIP.Properties.Resources.sdfddffd;
-            this.pictureBox5.Location = new System.Drawing.Point(22, 36);
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::PROJETO_FECIP.Properties.Resources.icons8_nome_50__2_1;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 34);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(26, 29);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.Size = new System.Drawing.Size(45, 46);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::PROJETO_FECIP.Properties.Resources.telefone;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 158);
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::PROJETO_FECIP.Properties.Resources.icons8_call_squared_48;
+            this.pictureBox4.Location = new System.Drawing.Point(15, 156);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PROJETO_FECIP.Properties.Resources.data_de_nascimento1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 91);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::PROJETO_FECIP.Properties.Resources.icons8_calendário_501;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 90);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 41);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(48, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::PROJETO_FECIP.Properties.Resources.CPF;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 219);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::PROJETO_FECIP.Properties.Resources.icons8_documentos_de_identificação_verificados_504;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 219);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 41);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.Size = new System.Drawing.Size(48, 52);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(63, 219);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(27, 13);
+            this.label8.TabIndex = 29;
+            this.label8.Text = "CPF";
             // 
             // Form2
             // 
@@ -387,6 +403,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(366, 437);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTime);
@@ -414,7 +431,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseMove);
@@ -465,5 +481,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label8;
     }
 }

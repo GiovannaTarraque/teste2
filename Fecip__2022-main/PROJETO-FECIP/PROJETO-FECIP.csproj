@@ -228,6 +228,42 @@
   <ItemGroup>
     <None Include="Resources\padps %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-nome-50 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendário-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-call-squared-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documentos-de-identificação-verificados-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documentos-de-identificação-verificados-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documentos-de-identificação-verificados-502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documentos-de-identificação-verificados-503.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trancar-50 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-nome-50 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendário-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documentos-de-identificação-verificados-504.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trancar-301.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

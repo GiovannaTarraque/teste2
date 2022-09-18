@@ -173,8 +173,8 @@ namespace PROJETO_FECIP
 
         private void txb_password_cadastro_TextChanged(object sender, EventArgs e)
         {
-            
-            
+            txb_username.ForeColor = Color.Black;
+
         }
 
         private void mtxb_telefone_Click(object sender, EventArgs e)
@@ -184,7 +184,7 @@ namespace PROJETO_FECIP
 
         private void txb_username_TextChanged(object sender, EventArgs e)
         {
-
+            txb_username.ForeColor = Color.Black;
         }
 
         private void txb_username_Click(object sender, EventArgs e)
@@ -223,6 +223,21 @@ namespace PROJETO_FECIP
         private void label7_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txb_username_Enter(object sender, EventArgs e)
+        {
+            
         }
     }
 }

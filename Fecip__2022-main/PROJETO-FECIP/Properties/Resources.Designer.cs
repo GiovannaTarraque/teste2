@@ -183,6 +183,106 @@ namespace PROJETO_FECIP.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_calendário_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-calendário-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_calendário_501 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-calendário-501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_call_squared_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-call-squared-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_documentos_de_identificação_verificados_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-documentos-de-identificação-verificados-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_documentos_de_identificação_verificados_501 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-documentos-de-identificação-verificados-501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_documentos_de_identificação_verificados_502 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-documentos-de-identificação-verificados-502", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_documentos_de_identificação_verificados_503 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-documentos-de-identificação-verificados-503", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_documentos_de_identificação_verificados_504 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-documentos-de-identificação-verificados-504", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_nome_50__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-nome-50 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_nome_50__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-nome-50 (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_trancar {
             get {
                 object obj = ResourceManager.GetObject("icons8-trancar", resourceCulture);
@@ -203,6 +303,16 @@ namespace PROJETO_FECIP.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_trancar_301 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-trancar-301", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_trancar_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-trancar-50", resourceCulture);
@@ -216,6 +326,16 @@ namespace PROJETO_FECIP.Properties {
         internal static System.Drawing.Bitmap icons8_trancar_50__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-trancar-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_trancar_50__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-trancar-50 (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
